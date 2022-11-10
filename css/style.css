@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Raleway:ital@1&family=Roboto&display=swap');
+    
+body {
+    background-color: white;
+    position: relative;
+}
+header {
+    width: 1024px;
+    height: 38px;
+    background-color: #1CD1B0;
+}
+.txt {
+    position: absolute;
+    width: 124px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    color: #000000;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+.bg {
+    width: 1024px;
+    height: 101px;
+    top: 38px;
+    background-color: 
+    #00669F;
+}
+
+/*********************
+Estilos card do batman
+*********************/
+
+img {
+position: absolute;
+width: 224px;
+height: 47px;
+left: 28px;
+top: 66px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+color: #000000;
+
+}
+.bg-bat{
+position: absolute;
+width: 374px;
+height: 217.81px;
+left: 112px;
+top: 225.11px;
+border-radius: 16px 16px 0px 0px;
+}
+.retangle {
+position: absolute;
+width: 374px;
+height: 379.2px;
+left: 112px;
+top: 441.8px;
+background: #F3F3F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.icon-batman {
+position: absolute;
+width: 135.43px;
+height: 133.17px;
+left: 231.57px;
+top: 369.57px;
+border-radius: 50%;
+background: url(batman);
+}
+
+h2 {
+position: absolute;
+width: 137.69px;
+height: 39.5px;
+left: 230.44px;
+top: 525.31px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+align-items: flex-end;
+text-align: center;
+color: #000000;
+}
+
+p {
+position: absolute;
+width: 301.33px;
+height: 127.53px;
+left: 148px;
+top: 594.1px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #333333;
+}
+.icon-retangle-inferior {
+position: absolute;
+width: 145.34px;
+height: 54.76px;
+left: 225.93px;
+top: 745.39px;
+background: #00669F;
+}
+h3 {
+ position: absolute;
+width: 63.2px;
+height: 20.31px;
+left: 267.69px;
+top: 762.31px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+color: #F3F3F3;
+}
+.icon-hart-btm {
+    position: absolute;
+    left: 134px;
+    right: 30px;
+    top: 235px;
+    width: 34px;
+    color: #CC2424;
+}
+/*************************************
+Estilos do card do batima termina aqui
+**************************************/
+.bg-alerquina {
+position: absolute;
+width: 373.57px;
+height: 217.81px;
+left: 572.43px;
+top: 225.11px;
+background: url(bg);
+border-radius: 16px 16px 0px 0px;
+}
+.retangle-al {
+position: absolute;
+width: 374px;
+height: 379px;
+left: 572px;
+top: 442px;
+background: #F3F3F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.hart-al {
+    position: absolute;
+    left: 590px;
+    right: 30px;
+    top: 235px;
+    width: 34px;
+    color: #CC2424;
+}
+
+.icon-al {
+position: absolute;
+width: 137.69px;
+height: 137.69px;
+left: 698.87px;
+top: 367.31px;
+border-radius: 50%;
+}
+h4 {
+position: absolute;
+width: 192.99px;
+height: 39.5px;
+left: 671.79px;
+top: 525.31px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+display: block;
+align-items: flex-end;
+text-align: center;
+color: #000000;
+}
+.txt-1 {
+position: absolute;
+width: 301.33px;
+height: 127.53px;
+left: 616.49px;
+top: 594.1px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #333333;
+}
+.btn {
+position: absolute;
+width: 145.34px;
+height: 54.76px;
+left: 694.36px;
+top: 745.39px;
+background: #00669F;
+font-family: 'Roboto';
+color:white;
+font-size: 15px;
+text-align: center;
+}
+footer {
+    position: absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 1024px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    color: #FFF9F9;
+    font-size: 16px;
+    padding: 16px;
+    text-align: center;
+}
